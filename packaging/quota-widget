@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+"""System application entry; runtime installation runs as the logged-in user."""
+import os
+import runpy
+
+os.environ["QUOTA_WIDGET_LAUNCHER"] = "/usr/bin/quota-widget"
+runpy.run_path("/usr/lib/quota-widget/gui_launcher.py", run_name="__main__")

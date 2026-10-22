@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Quota Dock 1.2.1
+GenericName=Subscription Usage Widget
+Comment=Codex and Claude weekly usage on your desktop
+Exec=/usr/bin/quota-widget
+TryExec=/usr/bin/quota-widget
+Icon=quota-dock
+Terminal=false
+Categories=Utility;Development;
+Keywords=Codex;Claude;usage;quota;weekly;
+StartupNotify=false
+StartupWMClass=quota-dock
+X-QuotaWidget-Owned=true

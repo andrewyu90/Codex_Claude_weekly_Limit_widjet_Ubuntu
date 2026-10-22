@@ -1,0 +1,3 @@
+# Build tooling only. Runtime requirements are declared in pyproject.toml.
+# Unit tests use Python's standard-library unittest module.
+build>=1.2,<2

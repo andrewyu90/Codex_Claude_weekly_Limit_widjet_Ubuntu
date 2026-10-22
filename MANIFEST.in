@@ -1,0 +1,13 @@
+include README.md LICENSE pyproject.toml MANIFEST.in
+include CONTRIBUTING.md SECURITY.md CHANGELOG.md
+include Makefile requirements-dev.txt install.sh uninstall.sh
+recursive-include .github/workflows *.yml *.yaml
+graft docs
+graft packaging
+graft tests
+recursive-include quota_widget/assets *.svg
+prune build
+prune dist
+prune .venv
+prune venv
+global-exclude *.py[cod] __pycache__ *~
